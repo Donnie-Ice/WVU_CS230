@@ -1,0 +1,162 @@
+.imgpadding
+{
+    padding-left: 3.7em;
+    padding-right: 3.7em;
+    padding-bottom: 5em;
+}
+
+.fleecepad
+{
+    padding-left: 6em;
+    padding-top: 38em;
+}
+
+.simgpadding
+{
+    padding-left: 3em;
+    padding-bottom: 5em;
+}
+
+.toppad40
+{
+    padding-top: 40em;
+}
+
+.leftpad6
+{
+    padding-left: 6em;
+}
+
+.leftpad45
+{
+    padding-left: 45em;
+}
+
+.leftpad82
+{
+    padding-left: 82em;
+}
+
+.font20
+{
+    font-size: 20px;
+    font-weight: 0; 
+    font-family: sans-serif;
+}
+
+.headingpad
+{
+    padding-left: 3.7em;
+    padding-bottom: 1em;
+}
+
+.fontxl
+{
+    font-size: x-large;
+}
+
+.gfont
+{
+    font-size: 5em; 
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.gpad1
+{
+    padding-left: 16em;
+}
+
+.gbtnpad
+{
+    padding-left: 28em;
+}
+
+.gbtn
+{
+    border-radius: 20px;
+    width: 6em;
+}
+
+.gtext
+{
+    padding-left: 25em;
+    color: #000;
+}
+.simgsize
+{
+    width: 600px; 
+    height: 700px;
+    padding-left:1em; 
+}
+
+.duocardpad
+{
+    padding-left: 3.7em;
+    padding-bottom: 5em;
+}
+
+.duocardfont
+{
+    font-size: 24px; 
+    font-weight: 0; 
+    font-family: sans-serif;
+    padding-bottom: 1em;
+}
+
+.duocardsize1
+{
+    width: 900px;
+    height: 900px;
+}
+
+.duocardsize2
+{
+    width: 900px;
+    height: 900px;
+    padding-left: 1em;
+}
+
+.duocardol1
+{
+    padding-left: 6em;
+    padding-top: 46em;
+}
+
+.duocardol2
+{
+    padding-left: 65em;
+    padding-top: 48em;
+}
+
+.dcbtn1
+{
+    border-radius: 20px;
+    width: 5em;
+}
+
+.dcbtn2
+{
+    border-radius: 20px;
+    width: 8em;
+}
+
+.LaGpad
+{
+    padding-left: 1.8em;
+    padding-bottom: 1em;
+}
+
+.LaGhead
+{
+    font-size: x-large;
+    padding-right: 61em;
+    padding-left: 1.2em;
+}
+
+.LaGbtn
+{
+    border-radius: 20px;
+    width: 2.5em;
+    font-size: large;
+}
