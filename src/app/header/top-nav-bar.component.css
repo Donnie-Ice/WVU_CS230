@@ -1,0 +1,22 @@
+.NewReleaseDropdown:hover
+{
+    text-decoration: underline;
+    
+}
+
+.NewReleaseDropdown::after
+{
+    content: none;
+}
+
+.NewReleaseDropdown:Hover .dropdown-menu
+{
+    text-decoration: lawngreen;
+    display: block;
+    margin-top: 0;
+}
+
+.Drophover:hover
+{
+    display: block;
+}
