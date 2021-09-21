@@ -12,6 +12,7 @@ import { TopNavBarComponent } from './header/top-nav-bar.component';
 import { TopNavBar2Component } from './header/top-nav-bar2.component';
 import { TopNavBar3Component } from './header/top-nav-bar3.component';
 import { LayoutMainComponent } from './layout/layout-main.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { LayoutMainComponent } from './layout/layout-main.component';
     TopNavBar3Component
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
