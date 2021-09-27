@@ -1,4 +1,6 @@
 import { Component } from "@angular/core";
+import { converse } from "./converse_card.model";
+import { mock_converse } from "./mock_converse";
 
 @Component({
     selector: 'app-converse',
@@ -6,5 +8,11 @@ import { Component } from "@angular/core";
     styleUrls: []
 })
 export class ConverseComponent{
+    Item:converse[] = [];
 
+    constructor() {
+        for (var converse_card of mock_converse) {
+            this.Item.push(new converse(converse_card))
+        }
+    }
 }

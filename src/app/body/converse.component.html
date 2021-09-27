@@ -1,1 +1,18 @@
-<div class="d-flex justify-content-center" style="background-color: blueviolet;">Converse component</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-2">
+            <app-converse_sidebar></app-converse_sidebar>
+        </div>
+        <div class="col-10">
+            <div>
+                <div class="d-flex flex-row">
+                    <div *ngFor="let converse_card of Item;">
+                        <app-converse-card name="{{converse_card.name}}" product_type="{{converse_card.product_type}}"
+                            number_colors="{{converse_card.number_colors}}" price="{{converse_card.price}}"
+                            imagePath="{{converse_card.imagePath}}">Loading Card</app-converse-card>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

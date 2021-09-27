@@ -13,6 +13,16 @@ import { TopNavBar2Component } from './header/top-nav-bar2.component';
 import { TopNavBar3Component } from './header/top-nav-bar3.component';
 import { LayoutMainComponent } from './layout/layout-main.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ConverseComponent } from './body/converse.component';
+import { JordanComponent } from './body/jordan.component';
+import { HelpComponent } from './body/help.component';
+import { JoinComponent } from './body/join.component';
+import { LayoutConverseComponent } from './layout/layout-converse.component';
+import { LayoutJordanComponent } from './layout/layout-Jordan.component';
+import { LayoutHelpComponent } from './layout/layout-help.component';
+import { LayoutJoinComponent } from './layout/layout-join.component';
+import { ConverseCardComponent } from './body/converse_card.component';
+import { ConverseSidebarComponent } from './body/converse_sidebar.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +36,17 @@ import { AppRoutingModule } from './app-routing.module';
     Body4Component,
     Body5Component,
     TopNavBar2Component,
-    TopNavBar3Component
+    TopNavBar3Component,
+    ConverseComponent,
+    JordanComponent,
+    HelpComponent,
+    JoinComponent,
+    LayoutConverseComponent,
+    LayoutJordanComponent,
+    LayoutHelpComponent,
+    LayoutJoinComponent,
+    ConverseCardComponent,
+    ConverseSidebarComponent
   ],
   imports: [
     BrowserModule,
