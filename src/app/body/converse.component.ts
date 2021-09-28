@@ -5,7 +5,7 @@ import { mock_converse } from "./mock_converse";
 @Component({
     selector: 'app-converse',
     templateUrl: 'converse.component.html',
-    styleUrls: []
+    styleUrls: ['./converse_card.component.css']
 })
 export class ConverseComponent{
     Item:converse[] = [];
