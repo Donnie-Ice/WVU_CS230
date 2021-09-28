@@ -3,7 +3,7 @@ import { Component, Input } from "@angular/core";
 @Component({
     selector: 'app-converse-card',
     templateUrl: 'converse_card.component.html',
-    styleUrls: []
+    styleUrls: ['./converse_card.component.css']
 })
 export class ConverseCardComponent{
     @Input()
