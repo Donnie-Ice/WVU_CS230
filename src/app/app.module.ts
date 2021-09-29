@@ -23,6 +23,8 @@ import { LayoutHelpComponent } from './layout/layout-help.component';
 import { LayoutJoinComponent } from './layout/layout-join.component';
 import { ConverseCardComponent } from './body/converse_card.component';
 import { ConverseSidebarComponent } from './body/converse_sidebar.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './header/user-info.component';
 
 @NgModule({
   declarations: [
@@ -46,11 +48,13 @@ import { ConverseSidebarComponent } from './body/converse_sidebar.component';
     LayoutHelpComponent,
     LayoutJoinComponent,
     ConverseCardComponent,
-    ConverseSidebarComponent
+    ConverseSidebarComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
