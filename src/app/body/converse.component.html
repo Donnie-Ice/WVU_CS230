@@ -5,8 +5,8 @@
         </div>
         <div class="col-10">
             <div class="">
-                <div class="">
-                    <div style="max-width: fit-content; margin-right: 0;" *ngFor="let converse_card of Item;">
+                <div class="row row-cols-3">
+                    <div *ngFor="let converse_card of Item;">
                         <app-converse-card name="{{converse_card.name}}" product_type="{{converse_card.product_type}}"
                             number_colors="{{converse_card.number_colors}}" price="{{converse_card.price}}"
                             imagePath="{{converse_card.imagePath}}">Loading Card</app-converse-card>

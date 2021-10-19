@@ -1,8 +1,8 @@
-export class converse {
+export class CardData {
     name: string;
-    product_type:string;
-    number_colors:string;
-    price:string;
+    product_type: string;
+    number_colors: string;
+    price: string;
     imagePath: string;
 
     constructor({name, product_type,number_colors, price, imagePath } :
@@ -12,5 +12,5 @@ export class converse {
             this.number_colors = number_colors;
             this.price = price;
             this.imagePath = imagePath;
-    }
+        }
 }
