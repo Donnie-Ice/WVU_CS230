@@ -33,7 +33,11 @@ export class ConverseCardComponent implements OnInit {
     showCardData() {
         this.dataService.getCardData().subscribe((data: CardData[]) => {
             console.log(data);
+            for(var item in data){
+                console.log(data[item]);
+            }
             this.myData = data;
         })
     }
+
 }

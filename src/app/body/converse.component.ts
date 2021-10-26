@@ -14,7 +14,7 @@ export class ConverseComponent{
         this.cardDataService.getCardData().subscribe((data: CardData[]) =>{
             console.log(data)
             for(let i = 0; i < data.length; i++){
-                var card:(CardData | undefined) = data[i]
+                var card:(CardData | undefined) = this.Item[i]
                 this.Item.push(new CardData(card))
             }
         })

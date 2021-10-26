@@ -13,4 +13,14 @@ export class UserInfoService{
         return this.http.get<UserInfo>(this.url);
     }
 
+    editUserInfo() {
+        var temp: UserInfo = {
+            FirstName: "John",
+            LastName: "Smith",
+            GitHub: "http",
+            mix_id: "jsmith",
+        }
+
+        return this.http.put(this.url, temp);
+    }
 }

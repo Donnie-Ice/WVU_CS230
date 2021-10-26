@@ -25,6 +25,8 @@ import { ConverseCardComponent } from './body/converse_card.component';
 import { ConverseSidebarComponent } from './body/converse_sidebar.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './header/user-info.component';
+import { SignInComponent } from './body/sign-in/sign-in-page.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -49,12 +51,14 @@ import { UserInfoComponent } from './header/user-info.component';
     LayoutJoinComponent,
     ConverseCardComponent,
     ConverseSidebarComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    SignInComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

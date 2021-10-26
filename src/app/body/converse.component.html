@@ -6,10 +6,10 @@
         <div class="col-10">
             <div class="">
                 <div class="row row-cols-3">
-                    <div *ngFor="let converse_card of Item;">
-                        <app-converse-card name="{{converse_card.name}}" product_type="{{converse_card.product_type}}"
-                            number_colors="{{converse_card.number_colors}}" price="{{converse_card.price}}"
-                            imagePath="{{converse_card.imagePath}}">Loading Card</app-converse-card>
+                    <div *ngFor="let CardData of Item;">
+                        <app-converse-card name="{{CardData.name}}" product_type="{{CardData.product_type}}"
+                            number_colors="{{CardData.number_colors}}" price="{{CardData.price}}"
+                            imagePath="{{CardData.imagePath}}">Loading Card</app-converse-card>
                     </div>
                 </div>
             </div>
