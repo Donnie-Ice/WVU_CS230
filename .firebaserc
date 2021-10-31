@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "nike-app-7911a": {
+      "hosting": {
+        "nike": [
+          "nike-app-7911a"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "nike-app-7911a"
+  }
+}
