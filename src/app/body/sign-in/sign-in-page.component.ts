@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { DatabaseService } from "../database/database.service";
 import { SignInInfo } from "./sign-in-page.model";
 import { SignInInfoService } from "./sign-in-page.service";
 
@@ -9,8 +10,8 @@ import { SignInInfoService } from "./sign-in-page.service";
 export class SignInComponent implements OnInit{
     LogInInfo: SignInInfo | undefined;
 
-    constructor(private signInInfoService:SignInInfoService){
-
+    constructor(private signInInfoService:SignInInfoService, private dbService:DatabaseService){
+        dbService.showData();
     }
 
     ngOnInit(): void {

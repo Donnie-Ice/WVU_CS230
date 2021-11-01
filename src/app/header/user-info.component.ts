@@ -16,7 +16,7 @@ export class UserInfoComponent implements OnInit{
         console.log('Showing data');
         this.showUserInfo();
         this.infoService.editUserInfo().subscribe(data => {
-            console.log(data);
+            
         })
     }
 
