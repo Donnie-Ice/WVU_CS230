@@ -14,9 +14,9 @@ export class DatabaseService {
     public showData() {
         this.items.subscribe((data: SignInInfo []) => {
             console.log("Data recieved");
-            for(let item of data) {
-                console.log(item);
-            }
+            //for(let item of data) {
+            //    console.log(item);
+            //}
         })
     }
 }
