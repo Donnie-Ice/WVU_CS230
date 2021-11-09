@@ -1,25 +1,3 @@
 Sign in
 
-<div class="container">
-    <div class="row">
-        <div class="col-6">
-            <form #postForm="ngForm" (ngSubmit) = "onEditSignInInfo(postForm.value)">
-                <div class="input-group flex-nowrap">
-                    <span class="input-group-text" id="addon-wrapping">Email</span>
-                    <input type="text" class="form-control" id="Email" ngModel name="Email">
-                </div>
-                <div class="input-group flex-nowrap">
-                    <span class="input-group-text" id="addon-wrapping">Password</span>
-                    <input type="text" class="form-control" id="Password" ngModel name="Password">
-                </div>
-                <div class="input-group flex-nowrap">
-                    <span class="input-group-text" id="addon-wrapping">Are You a Robot?</span>
-                    <input type="text" class="form-control" id="Robot" ngModel name="Robot">
-                </div>
-                <button class="btn btn-primary" type="submit">
-                    Sign In
-                </button>
-            </form>
-        </div>
-    </div>
-</div>
+<nike-auth></nike-auth>
